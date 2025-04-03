@@ -161,10 +161,10 @@ export default function Home() {
 
   return (
     <div className="mainApp w-[100vw] h-[100vh] flex justify-center items-center">
-      <div className="appContainer w-[90vw] h-[90vh] lg:w-[60vw] lg:h-[80vh] mb-9 flex flex-col gap-4">
-        <div className="top flex gap-2 justify-around">
+      <div className="appContainer w-[95vw] h-[90vh] lg:w-[60vw] lg:h-[80vh] mb-9 flex flex-col gap-4">
+        <div className="top flex gap-2 justify-around items-center">
           <div className="textColor w-1/3">
-            <p className="text-center">Text Color Picker</p>
+            <p className="text-center">Text Color</p>
             <input
               onChange={(e) => settextColor(e.target.value)}
               value={textColor}
